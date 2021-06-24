@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HolidaySAPractice</string>
+    <string-array name="spinnerItems">
+        <item>1 Month</item>
+        <item>3 Month</item>
+        <item>6 Month</item>
+    </string-array>
+</resources>
