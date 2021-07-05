@@ -6,23 +6,25 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/logo" />
     <TextView
         android:id="@+id/introTextView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:gravity="bottom"
-        android:text="Welcome to ItemTracker!"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_itemtracker"
         android:textSize="30sp" />
+
+
 
     <TextView
         android:id="@+id/instructionTextView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:gravity="top"
         android:textSize="20sp"
-        android:text="-Create/Add Items to a list\n-Set the Expiry Date\n-Filter for item expiry date!" />
+        android:text="-Create/Add Items to a list\n-Set the Expiry Date\n-Filter for item expiry date!\n-Ensure to change the specifics at the top to the updated information then click update on the specific item in the list.\n \nClick Anywhere to continue!" />
 
 </LinearLayout>

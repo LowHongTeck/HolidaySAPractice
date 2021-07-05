@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">HolidaySAPractice</string>
+    <string name="welcome_to_itemtracker">Welcome to ItemTracker!</string>
+    <string name="enter_new_item">Enter new item</string>
+    <string name="expiry_date">Expiry Date:</string>
+    <string name="add">Add</string>
+    <string name="items_that_will_expire_within">Items that will expire within:</string>
+    <string name="filter">filter</string>
     <string-array name="spinnerItems">
         <item>None</item>
         <item>1 Month</item>
